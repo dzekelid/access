@@ -1,0 +1,202 @@
+---
+name: SendGrid
+x-slug: sendgrid
+description: Delivering your transactional and marketing emails through the worlds
+  largest cloud-based email delivery platform. Send with confidence.
+image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+x-kinRank: "9"
+x-alexaRank: "9582"
+tags: Access
+created: "2018-06-17"
+modified: "2018-06-17"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/access/master/_listings/sendgrid/apis.md
+specificationVersion: "0.14"
+apis:
+- name: SendGrid Get Access Settings Activity
+  x-api-slug: sendgrid
+  description: |-
+    **This endpoint allows you to retrieve a list of all of the IP addresses that recently attempted to access your account either through the User Interface or the API.**
+
+    IP Access Management allows you to control which IP addresses can be used to access your account, either through the User Interface or the API. There is no limit to the number of IP addresses that you can add to your whitelist. It is possible to remove your own IP address from the whitelist, thus preventing yourself from accessing your account.
+
+    For more information, please see our [User Guide](http://sendgrid.com/docs/User_Guide/Settings/ip_access_management.html).
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
+  baseURL: https://api.sendgrid.com//v3//access_settings/activity
+  tags: Email,Access, Settings, Activity
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/access/master/_listings/sendgrid/access-settingsactivity-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/access/master/_listings/sendgrid/access-settingsactivity-get-openapi.md
+- name: SendGrid Delete Access Settings Whitelist
+  x-api-slug: sendgrid
+  description: |-
+    **This endpoint allows you to remove one or more IPs from your IP whitelist.**
+
+    You can remove one IP at a time, or you can remove multiple IP addresses.
+
+    IP Access Management allows you to control which IP addresses can be used to access your account, either through the User Interface or the API. There is no limit to the number of IP addresses that you can add to your whitelist. It is possible to remove your own IP address from the whitelist, thus preventing yourself from accessing your account.
+
+    For more information, please see our [User Guide](http://sendgrid.com/docs/User_Guide/Settings/ip_access_management.html).
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
+  baseURL: https://api.sendgrid.com//v3//access_settings/whitelist
+  tags: Email,Access, Settings, Whitelist
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/access/master/_listings/sendgrid/access-settingswhitelist-delete-openapi.md
+- name: SendGrid Get Access Settings Whitelist
+  x-api-slug: sendgrid
+  description: |-
+    **This endpoint allows you to retrieve a list of IP addresses that are currently whitelisted.**
+
+    IP Access Management allows you to control which IP addresses can be used to access your account, either through the User Interface or the API. There is no limit to the number of IP addresses that you can add to your whitelist. It is possible to remove your own IP address from the whitelist, thus preventing yourself from accessing your account.
+
+    For more information, please see our [User Guide](http://sendgrid.com/docs/User_Guide/Settings/ip_access_management.html).
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
+  baseURL: https://api.sendgrid.com//v3//access_settings/whitelist
+  tags: Email,Access, Settings, Whitelist
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/access/master/_listings/sendgrid/access-settingswhitelist-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/access/master/_listings/sendgrid/access-settingswhitelist-get-openapi.md
+- name: SendGrid Add Access Settings Whitelist
+  x-api-slug: sendgrid
+  description: |-
+    **This endpoint allows you to add one or more IP addresses to your IP whitelist.**
+
+    When adding an IP to your whitelist, include the IP address in an array. You can whitelist one IP at a time, or you can whitelist multiple IPs at once.
+
+    IP Access Management allows you to control which IP addresses can be used to access your account, either through the User Interface or the API. There is no limit to the number of IP addresses that you can add to your whitelist. It is possible to remove your own IP address from the whitelist, thus preventing yourself from accessing your account.
+
+    For more information, please see our [User Guide](http://sendgrid.com/docs/User_Guide/Settings/ip_access_management.html).
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
+  baseURL: https://api.sendgrid.com//v3//access_settings/whitelist
+  tags: Email,Access, Settings, Whitelist
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/access/master/_listings/sendgrid/access-settingswhitelist-post-openapi.md
+- name: SendGrid Delete Access Settings Whitelist Rule
+  x-api-slug: sendgrid
+  description: |-
+    **This endpoint allows you to remove a specific IP address from your IP whitelist.**
+
+    When removing a specific IP address from your whitelist, you must include the ID in your call.
+
+    IP Access Management allows you to control which IP addresses can be used to access your account, either through the User Interface or the API. There is no limit to the number of IP addresses that you can add to your whitelist. It is possible to remove your own IP address from the whitelist, thus preventing yourself from accessing your account.
+
+    For more information, please see our [User Guide](http://sendgrid.com/docs/User_Guide/Settings/ip_access_management.html).
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
+  baseURL: https://api.sendgrid.com//v3//access_settings/whitelist/{rule_id}
+  tags: Email,Access, Settings, Whitelist, Rule
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/access/master/_listings/sendgrid/access-settingswhitelistrule-id-delete-openapi.md
+- name: SendGrid Get Access Settings Whitelist Rule
+  x-api-slug: sendgrid
+  description: |-
+    **This endpoint allows you to retreive a specific IP address that has been whitelisted.**
+
+    You must include the ID for the specific IP address you want to retrieve in your call.
+
+    IP Access Management allows you to control which IP addresses can be used to access your account, either through the User Interface or the API. There is no limit to the number of IP addresses that you can add to your whitelist. It is possible to remove your own IP address from the whitelist, thus preventing yourself from accessing your account.
+
+    For more information, please see our [User Guide](http://sendgrid.com/docs/User_Guide/Settings/ip_access_management.html).
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
+  baseURL: https://api.sendgrid.com//v3//access_settings/whitelist/{rule_id}
+  tags: Email,Access, Settings, Whitelist, Rule
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/access/master/_listings/sendgrid/access-settingswhitelistrule-id-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/access/master/_listings/sendgrid/access-settingswhitelistrule-id-get-openapi.md
+- name: SendGrid
+  x-api-slug: sendgrid
+  description: SendGrids cloud-based email infrastructure relieves businesses of the
+    cost and complexity of maintaining custom email systems. SendGrid provides reliable
+    delivery, scalability and real-time analytics along with flexible APIs that make
+    custom integration a breeze.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
+  baseURL: https://api.sendgrid.com//v3
+  tags: Access
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/access/master/_listings/sendgrid/openapi.md
+x-common:
+- type: x--net-library
+  url: https://sendgrid.com/docs/Code_Examples/csharp.html
+- type: x-base
+  url: https://api.sendgrid.com
+- type: x-blog
+  url: http://blog.sendgrid.com/
+- type: x-blog-rss
+  url: http://feeds.feedburner.com/sendgrid/CDXr
+- type: x-contact-form
+  url: https://sendgrid.com/contact
+- type: x-crunchbase
+  url: http://www.crunchbase.com/company/sendgrid
+- type: x-crunchbase
+  url: https://crunchbase.com/organization/sendgrid
+- type: x-developer
+  url: https://sendgrid.com/developers
+- type: x-documentation
+  url: https://sendgrid.com/docs/index.html
+- type: x-email
+  url: privacy@sendgrid.com
+- type: x-email
+  url: legal@sendgrid.com
+- type: x-email
+  url: dpo@sendgrid.com
+- type: x-forum
+  url: http://support.sendgrid.com/forums
+- type: x-github
+  url: https://github.com/sendgrid
+- type: x-go-library
+  url: https://sendgrid.com/docs/Code_Examples/go.html
+- type: x-ios-library
+  url: https://sendgrid.com/docs/Code_Examples/ios.html
+- type: x-java-library
+  url: https://sendgrid.com/docs/Code_Examples/java.html
+- type: x-labs
+  url: http://labs.sendgrid.com/
+- type: x-node-js-library
+  url: https://sendgrid.com/docs/Code_Examples/nodejs.html
+- type: x-partners
+  url: https://sendgrid.com/partners
+- type: x-perl-library
+  url: https://sendgrid.com/docs/Code_Examples/perl.html
+- type: x-php-library
+  url: https://sendgrid.com/docs/Code_Examples/php.html
+- type: x-pricing
+  url: https://sendgrid.com/transactional-email/pricing
+- type: x-privacy
+  url: https://sendgrid.com/privacy
+- type: x-python-library
+  url: https://sendgrid.com/docs/Code_Examples/python.html
+- type: x-ruby-library
+  url: https://sendgrid.com/docs/Code_Examples/ruby.html
+- type: x-security
+  url: https://sendgrid.com/security
+- type: x-selfservice-registration
+  url: https://sendgrid.com/user/signup
+- type: x-terms-of-service
+  url: https://sendgrid.com/tos
+- type: x-twitter
+  url: https://twitter.com/SendGrid
+- type: x-website
+  url: http://sendgrid.com
+- type: x-website
+  url: https://sendgrid.com/
+include: []
+maintainers:
+- FN: Kin Lane
+  x-twitter: apievangelist
+  email: info@apievangelist.com
+---
