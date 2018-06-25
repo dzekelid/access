@@ -6,10 +6,10 @@ description: Square helps millions of sellers run their business- from secure cr
   up today!
 image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2176-square.jpg
 x-kinRank: "9"
-x-alexaRank: "2436"
+x-alexaRank: "2433"
 tags: Access
-created: "2018-06-17"
-modified: "2018-06-17"
+created: "2018-06-25"
+modified: "2018-06-25"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/access/master/_listings/square/apis.md
 specificationVersion: "0.14"
 apis:
@@ -21,7 +21,7 @@ apis:
     API endpoints, but the value of their deleted field is set to true. See Handling
     deleted timecards for more information.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2176-square.jpg
-  humanURL: http://squareup.com
+  humanURL: http://square.com
   baseURL: https://connect.squareup.com////v1/me/timecards/{timecard_id}
   tags: S,Timecard,,D,Timecards,Are,Still,Accessible,From,Connect,Endpoints,,But,Value,Of,Their,Deleted,Field,Is,Set,To,True,,See,Handling,Deleted,Timecardsmore,Information
   properties:
@@ -35,13 +35,15 @@ apis:
     card processing to point of sale solutions. Get paid faster with Square and sign
     up today!
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2176-square.jpg
-  humanURL: http://squareup.com
+  humanURL: http://square.com
   baseURL: https://connect.squareup.com//
   tags: Access
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/access/master/_listings/square/openapi.md
 x-common:
+- type: x-website
+  url: http://square.com
 - type: x-base
   url: https://connect.squareup.com
 - type: x-crunchbase
@@ -70,6 +72,8 @@ x-common:
   url: takedowns@squareup.com
 - type: x-github
   url: https://github.com/square
+- type: x-linkedin
+  url: https://www.linkedin.com/company/square--/
 - type: x-twitter
   url: https://twitter.com/Square
 - type: x-website
