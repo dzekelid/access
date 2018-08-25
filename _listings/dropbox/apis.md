@@ -7,24 +7,33 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/184-dropbo
 x-kinRank: "10"
 x-alexaRank: "89"
 tags: Access
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-24"
+modified: "2018-08-24"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/access/master/_listings/dropbox/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Dropbox Core Disables the access token.
-  x-api-slug: dropbox-core
-  description: Disables the access token used to authenticate the call. This method
-    works for OAuth 1 and OAuth 2 tokens.
+- name: Cloud Elements - Dropbox For Business API
+  x-api-slug: cloud-elements--dropbox-for-business-api
+  description: Dropbox is a modern workspace designed to reduce busywork-so you can
+    focus on the things that matter. Sign in and put your creative energy to work.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/184-dropbox.jpg
   humanURL: http://dropbox.com
-  baseURL: https://api.dropbox.com//1//disable_access_token
-  tags: Storage,Documents,Disable_access_token
+  baseURL: https://api.dropbox.com//1/team
+  tags: Access
   properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/access/master/_listings/dropbox/disable-access-token-post-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/access/master/_listings/dropbox/disable-access-token-post-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/access/master/_listings/dropbox/openapi.md
+- name: Dropbox Content
+  x-api-slug: dropbox-content
+  description: Dropbox is a modern workspace designed to reduce busywork-so you can
+    focus on the things that matter. Sign in and put your creative energy to work.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/184-dropbox.jpg
+  humanURL: http://dropbox.com
+  baseURL: https://api-content.dropbox.com//1
+  tags: Access
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/access/master/_listings/dropbox/openapi.md
 - name: Dropbox Core
   x-api-slug: dropbox-core
   description: Dropbox is a modern workspace designed to reduce busywork-so you can
@@ -36,26 +45,34 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/access/master/_listings/dropbox/openapi.md
-- name: Dropbox Datastore API Disable Access Token
+- name: Dropbox Datastore API
   x-api-slug: dropbox-datastore-api
-  description: /disable_access_token
+  description: the-dropbox-api-allows-you-to-build-the-power-of-dropbox-directly-into-your-app-
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/184-dropbox.jpg
   humanURL: http://dropbox.com
-  baseURL: https://api.dropbox.com//1//disable_access_token
-  tags: Disable,Access,Token
+  baseURL: https://api.dropbox.com//1
+  tags: File Storage, Sharing, Storage, Storage, My API Stack, API LIfeyclessss, Indie
+    EdTech Data Jam, Storage, Stack, Technology, Mobile, SaaS, internet, API Provider,
+    API Service Provider, Profiles, Service API, Relative Data
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/access/master/_listings/dropbox/disable-access-token-post-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/access/master/_listings/dropbox/disable-access-token-post-openapi.md
-- name: Dropbox Datastore API OAuth Access Token
+- name: Dropbox Datastore API
   x-api-slug: dropbox-datastore-api
-  description: /oauth/access_token
+  description: the-dropbox-api-allows-you-to-build-the-power-of-dropbox-directly-into-your-app-
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/184-dropbox.jpg
   humanURL: http://dropbox.com
-  baseURL: https://api.dropbox.com//1//oauth/access_token
-  tags: Oauth,Access,Token
+  baseURL: https://api.dropbox.com//1
+  tags: File Storage, Sharing, Storage, Storage, My API Stack, API LIfeyclessss, Indie
+    EdTech Data Jam, Storage, Stack, Technology, Mobile, SaaS, internet, API Provider,
+    API Service Provider, Profiles, Service API, Relative Data
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/access/master/_listings/dropbox/disable-access-token-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/access/master/_listings/dropbox/disable-access-token-post-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/access/master/_listings/dropbox/oauthaccess-token-post-postman.md
   - type: x-openapi-spec
@@ -70,7 +87,22 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/access/master/_listings/dropbox/openapi.md
+- name: Dropbox Notify
+  x-api-slug: dropbox-notify
+  description: Dropbox is a modern workspace designed to reduce busywork-so you can
+    focus on the things that matter. Sign in and put your creative energy to work.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/184-dropbox.jpg
+  humanURL: http://dropbox.com
+  baseURL: https://api-notify.dropbox.com//1
+  tags: Access
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/access/master/_listings/dropbox/openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://donorschoose.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://dropbox.stack.network
 - type: x-application-management
   url: https://www.dropbox.com/developers/apps
 - type: x-base

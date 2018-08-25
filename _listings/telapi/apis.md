@@ -7,20 +7,19 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1176-telap
 x-kinRank: "9"
 x-alexaRank: "1071695"
 tags: Access
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-24"
+modified: "2018-08-24"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/access/master/_listings/telapi/apis.md
 specificationVersion: "0.14"
 apis:
-- name: hetras Hotel API Version 0 Get a list of all the hotels of a chain your application
-    has access to.
+- name: hetras Hotel API Version 0
   x-api-slug: hetras-hotel-api-version-0
-  description: Get a list of all the hotels of a chain your application has access
-    to..
+  description: ""
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1176-telapi.jpg
   humanURL: http://www.telapi.com
-  baseURL: https://api.hetras-certification.net////api/hotel/v0/hotels
-  tags: ',Hotels,Of,Chain,Your,Application,Has,Access,To'
+  baseURL: https://api.hetras-certification.net//
+  tags: SMS, Voice, Voice, Target, Stack Network, Technology, SaaS, Mobile, Telecommunications,
+    SMS, Telecommunications, Messages, Messages, Service API, Relative Data
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/access/master/_listings/telapi/apihotelv0hotels-get-postman.md
@@ -37,7 +36,27 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/access/master/_listings/telapi/openapi.md
+- name: TelAPI
+  x-api-slug: telapi
+  description: TelAPI is a platform for telephony applications. TelAPI allows users
+    to add voice and SMS and other telephony features to applications. Some features
+    include sending and receiving SMS messages, phone calls, adding voice features
+    to applications, and buying phone numbers.The TelAPI allows developers to access
+    and integrate the functionality of TelAPI with other applications and to create
+    new applications. Some example API methods include listing calls, making calls,
+    managing recordings, and adding audio effects.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1176-telapi.jpg
+  humanURL: http://www.telapi.com
+  baseURL: http://api.telapi.com/v2/
+  tags: Access
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/access/master/_listings/telapi/openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://taxamo.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://telapi.stack.network
 - type: x-base
   url: https://api.telapi.com
 - type: x-blog

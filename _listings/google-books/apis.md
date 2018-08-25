@@ -10,31 +10,35 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "9"
 x-alexaRank: "0"
 tags: Access
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-24"
+modified: "2018-08-24"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/access/master/_listings/google-books/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Google Books API Release Access Restrictions
+- name: Google Books API
   x-api-slug: google-books-api
-  description: Release downloaded content access restriction.
+  description: searches-for-books-and-manages-your-google-books-library-
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Screen
     Shot 2017-03-16 at 4.28.26 PM.png
   humanURL: https://developers.google.com/books/
-  baseURL: ://www.googleapis.com//books/v1//myconfig/releaseDownloadAccess
-  tags: Access
+  baseURL: ://www.googleapis.com//books/v1
+  tags: Books, Google APIs, Stack Network, API Service Provider, API Provider, Profiles,
+    Relative Data, Service API
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/access/master/_listings/google-books/myconfigreleasedownloadaccess-post-openapi.md
-- name: Google Books API Request Access
+- name: Google Books API
   x-api-slug: google-books-api
-  description: Request concurrent and download access restrictions.
+  description: searches-for-books-and-manages-your-google-books-library-
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Screen
     Shot 2017-03-16 at 4.28.26 PM.png
   humanURL: https://developers.google.com/books/
-  baseURL: ://www.googleapis.com//books/v1//myconfig/requestAccess
-  tags: Access
+  baseURL: ://www.googleapis.com//books/v1
+  tags: Books, Google APIs, Stack Network, API Service Provider, API Provider, Profiles,
+    Relative Data, Service API
   properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/access/master/_listings/google-books/myconfigreleasedownloadaccess-post-openapi.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/access/master/_listings/google-books/myconfigrequestaccess-post-openapi.md
 - name: Google Books API
@@ -52,6 +56,10 @@ apis:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/access/master/_listings/google-books/openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://google.biquery.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://google.books.stack.network
 - type: x-blog
   url: http://booksearch.blogspot.com
 - type: x-blog-rss

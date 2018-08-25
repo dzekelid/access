@@ -10,18 +10,19 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "10"
 x-alexaRank: "0"
 tags: Access
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-24"
+modified: "2018-08-24"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/access/master/_listings/aws-opsworks/apis.md
 specificationVersion: "0.14"
 apis:
-- name: AWS OpsWorks API Grant Access
+- name: AWS OpsWorks API
   x-api-slug: aws-opsworks-api
-  description: NoteThis action can be used only with Windows stacks.
+  description: ""
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Management-Tools_AWSOpsWorks.png
   humanURL: https://aws.amazon.com/opsworks/
-  baseURL: ://///?Action=GrantAccess
-  tags: Grant,Access
+  baseURL: :///
+  tags: Amazon Web Services, Orchestration, Stack Network, API Service Provider, API
+    Service Provider, API Provider, Profiles, Relative Data, Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/access/master/_listings/aws-opsworks/actiongrantaccess-get-postman.md
@@ -42,6 +43,10 @@ apis:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/access/master/_listings/aws-opsworks/openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://aws.marketplace.metering.service.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://aws.opsworks.stack.network
 - type: x-command-line-interface
   url: http://docs.aws.amazon.com/cli/latest/userguide/cli-chap-welcome.html
 - type: x-documentation

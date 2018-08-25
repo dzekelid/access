@@ -9,69 +9,105 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "10"
 x-alexaRank: "0"
 tags: Access
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-24"
+modified: "2018-08-24"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/access/master/_listings/aws-cloudfront/apis.md
 specificationVersion: "0.14"
 apis:
-- name: AWS CloudFront API Create Cloud Front Origin Access Identity
+- name: AWS CloudFront API
   x-api-slug: aws-cloudfront-api
-  description: Creates a new origin access identity.
+  description: ""
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Storage-Content-Delivery_AmazonCloudFront.png
   humanURL: https://aws.amazon.com/cloudfront/
-  baseURL: ://///?Action=CreateCloudFrontOriginAccessIdentity
-  tags: Cloud, Front, Origin, Access, Identity
+  baseURL: :///
+  tags: Amazon Web Services, Storage, Content, CDN, Stack Network, API Service Provider,
+    API Service Provider, API Provider, Profiles, Relative Data, Service API
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/access/master/_listings/aws-cloudfront/actioncreatecloudfrontoriginaccessidentity-get-openapi.md
-- name: AWS CloudFront API Delete Cloud Front Origin Access Identity
+- name: AWS CloudFront API
   x-api-slug: aws-cloudfront-api
-  description: Delete an origin access identity.
+  description: ""
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Storage-Content-Delivery_AmazonCloudFront.png
   humanURL: https://aws.amazon.com/cloudfront/
-  baseURL: ://///?Action=DeleteCloudFrontOriginAccessIdentity
-  tags: Cloud, Front, Origin, Access, Identity
+  baseURL: :///
+  tags: Amazon Web Services, Storage, Content, CDN, Stack Network, API Service Provider,
+    API Service Provider, API Provider, Profiles, Relative Data, Service API
   properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/access/master/_listings/aws-cloudfront/actioncreatecloudfrontoriginaccessidentity-get-openapi.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/access/master/_listings/aws-cloudfront/actiondeletecloudfrontoriginaccessidentity-get-openapi.md
-- name: AWS CloudFront API Get Cloud Front Origin Access Identity
+- name: AWS CloudFront API
   x-api-slug: aws-cloudfront-api
-  description: Get the information about an origin access identity.
+  description: ""
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Storage-Content-Delivery_AmazonCloudFront.png
   humanURL: https://aws.amazon.com/cloudfront/
-  baseURL: ://///?Action=GetCloudFrontOriginAccessIdentity
-  tags: Cloud, Front, Origin, Access, Identity
+  baseURL: :///
+  tags: Amazon Web Services, Storage, Content, CDN, Stack Network, API Service Provider,
+    API Service Provider, API Provider, Profiles, Relative Data, Service API
   properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/access/master/_listings/aws-cloudfront/actioncreatecloudfrontoriginaccessidentity-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/access/master/_listings/aws-cloudfront/actiondeletecloudfrontoriginaccessidentity-get-openapi.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/access/master/_listings/aws-cloudfront/actiongetcloudfrontoriginaccessidentity-get-openapi.md
-- name: AWS CloudFront API Get Cloud Front Origin Access Identity Config
+- name: AWS CloudFront API
   x-api-slug: aws-cloudfront-api
-  description: Get the configuration information about an origin access identity.
+  description: ""
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Storage-Content-Delivery_AmazonCloudFront.png
   humanURL: https://aws.amazon.com/cloudfront/
-  baseURL: ://///?Action=GetCloudFrontOriginAccessIdentityConfig
-  tags: Cloud, Front, Origin, Access, Identity, Config
+  baseURL: :///
+  tags: Amazon Web Services, Storage, Content, CDN, Stack Network, API Service Provider,
+    API Service Provider, API Provider, Profiles, Relative Data, Service API
   properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/access/master/_listings/aws-cloudfront/actioncreatecloudfrontoriginaccessidentity-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/access/master/_listings/aws-cloudfront/actiondeletecloudfrontoriginaccessidentity-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/access/master/_listings/aws-cloudfront/actiongetcloudfrontoriginaccessidentity-get-openapi.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/access/master/_listings/aws-cloudfront/actiongetcloudfrontoriginaccessidentityconfig-get-openapi.md
-- name: AWS CloudFront API List Cloud Front Origin Access Identities
+- name: AWS CloudFront API
   x-api-slug: aws-cloudfront-api
-  description: Lists origin access identities.
+  description: ""
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Storage-Content-Delivery_AmazonCloudFront.png
   humanURL: https://aws.amazon.com/cloudfront/
-  baseURL: ://///?Action=ListCloudFrontOriginAccessIdentities
-  tags: List, Cloud, Front, Origin, Access, Identities
+  baseURL: :///
+  tags: Amazon Web Services, Storage, Content, CDN, Stack Network, API Service Provider,
+    API Service Provider, API Provider, Profiles, Relative Data, Service API
   properties:
   - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/access/master/_listings/aws-cloudfront/actioncreatecloudfrontoriginaccessidentity-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/access/master/_listings/aws-cloudfront/actiondeletecloudfrontoriginaccessidentity-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/access/master/_listings/aws-cloudfront/actiongetcloudfrontoriginaccessidentity-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/access/master/_listings/aws-cloudfront/actiongetcloudfrontoriginaccessidentityconfig-get-openapi.md
+  - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/access/master/_listings/aws-cloudfront/actionlistcloudfrontoriginaccessidentities-get-openapi.md
-- name: AWS CloudFront API Update Cloud Front Origin Access Identity
+- name: AWS CloudFront API
   x-api-slug: aws-cloudfront-api
-  description: Update an origin access identity.
+  description: ""
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Storage-Content-Delivery_AmazonCloudFront.png
   humanURL: https://aws.amazon.com/cloudfront/
-  baseURL: ://///?Action=UpdateCloudFrontOriginAccessIdentity
-  tags: Cloud, Front, Origin, Access, Identity
+  baseURL: :///
+  tags: Amazon Web Services, Storage, Content, CDN, Stack Network, API Service Provider,
+    API Service Provider, API Provider, Profiles, Relative Data, Service API
   properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/access/master/_listings/aws-cloudfront/actioncreatecloudfrontoriginaccessidentity-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/access/master/_listings/aws-cloudfront/actiondeletecloudfrontoriginaccessidentity-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/access/master/_listings/aws-cloudfront/actiongetcloudfrontoriginaccessidentity-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/access/master/_listings/aws-cloudfront/actiongetcloudfrontoriginaccessidentityconfig-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/access/master/_listings/aws-cloudfront/actionlistcloudfrontoriginaccessidentities-get-openapi.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/access/master/_listings/aws-cloudfront/actionupdatecloudfrontoriginaccessidentity-get-openapi.md
 - name: AWS CloudFront API
@@ -90,6 +126,10 @@ apis:
 x-common:
 - type: x-analysis
   url: https://aws.amazon.com/cloudfront/reporting/
+- type: x-api-gallery
+  url: http://aws.cloudformation.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://aws.cloudfront.stack.network
 - type: x-documentation
   url: http://docs.aws.amazon.com/AmazonCloudFront/latest/APIReference/
 - type: x-faq

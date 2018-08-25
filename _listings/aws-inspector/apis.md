@@ -14,33 +14,33 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "10"
 x-alexaRank: "0"
 tags: Access
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-24"
+modified: "2018-08-24"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/access/master/_listings/aws-inspector/apis.md
 specificationVersion: "0.14"
 apis:
-- name: AWS Inspector API Describe Cross Account Access Role
+- name: AWS Inspector API
   x-api-slug: aws-inspector-api
-  description: |-
-    Describes the IAM role that enables Amazon Inspector to access your AWS
-             account.
+  description: ""
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Security-Identity_AmazonInspector.png
   humanURL: https://aws.amazon.com/inspector/
-  baseURL: ://///?Action=DescribeCrossAccountAccessRole
-  tags: Cross Account Access Roles
+  baseURL: :///
+  tags: Amazon Web Services, Security, Stack Network, API Service Provider, API Service
+    Provider, API Provider, Profiles, Relative Data, Service API
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/access/master/_listings/aws-inspector/actiondescribecrossaccountaccessrole-get-openapi.md
-- name: AWS Inspector API Register Cross Account Access Role
+- name: AWS Inspector API
   x-api-slug: aws-inspector-api
-  description: |-
-    Registers the IAM role that Amazon Inspector uses to list your EC2 instances at the
-             start of the assessment run or when you call the.
+  description: ""
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Security-Identity_AmazonInspector.png
   humanURL: https://aws.amazon.com/inspector/
-  baseURL: ://///?Action=RegisterCrossAccountAccessRole
-  tags: Cross Account Access Roles
+  baseURL: :///
+  tags: Amazon Web Services, Security, Stack Network, API Service Provider, API Service
+    Provider, API Provider, Profiles, Relative Data, Service API
   properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/access/master/_listings/aws-inspector/actiondescribecrossaccountaccessrole-get-openapi.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/access/master/_listings/aws-inspector/actionregistercrossaccountaccessrole-get-openapi.md
 - name: AWS Inspector API
@@ -62,6 +62,10 @@ apis:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/access/master/_listings/aws-inspector/openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://aws.identity.and.access.management.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://aws.inspector.stack.network
 - type: x-documentation
   url: http://docs.aws.amazon.com/inspector/latest/APIReference/
 - type: x-faq

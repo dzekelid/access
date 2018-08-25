@@ -16,22 +16,147 @@ produces:
 consumes:
 - application/json
 paths:
-  /Accounts/{AccountSid}/SIP/IpAccessControlLists/{IpAccessControlListSid}/IpAddresses/{IpAddressSid}:
+  /Accounts/{AccountSid}/SIP/Domains/{SipDomainSid}:
+    delete:
+      summary: Delete Domains IP Access Control List Mappings
+      description: Delete a domain. If you have created subdomains of a domain, you
+        will not be able to delete the domain until you first delete all subdomains
+        of it.
+      operationId: delete-a-domain-if-you-have-created-subdomains-of-a-domain-you-will-not-be-able-to-delete-the-domain
+      x-api-path-slug: accountsaccountsidsipdomainssipdomainsid-delete
+      parameters:
+      - in: path
+        name: AccountSid
+        description: The ID for the Twilio account
+      - in: path
+        name: SipDomainSid
+        description: A 34 character string that uniquely identifies the SIP domain
+      responses:
+        200:
+          description: OK
+      tags:
+      - SIP Domains
+  /Accounts/{AccountSid}/SIP/Domains/{SipDomainSid}/IpAccessControlListMappings:
+    get:
+      summary: Get Domains IP Access Control List Mapping
+      description: Return the IpAccessControlListMappings that are associated to this
+        domain.
+      operationId: return-the-ipaccesscontrollistmappings-that-are-associated-to-this-domain
+      x-api-path-slug: accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappings-get
+      parameters:
+      - in: path
+        name: AccountSid
+        description: The ID for the Twilio account
+      - in: path
+        name: SipDomainSid
+        description: A 34 character string that uniquely identifies the SIP domain
+      responses:
+        200:
+          description: OK
+      tags:
+      - SIP Domains
+    post:
+      summary: Add Domains IP Access Control List Mappings
+      description: Map an IpAccessControlList to this domain.
+      operationId: map-an-ipaccesscontrollist-to-this-domain
+      x-api-path-slug: accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappings-post
+      parameters:
+      - in: path
+        name: AccountSid
+        description: The ID for the Twilio account
+      - in: path
+        name: SipDomainSid
+        description: A 34 character string that uniquely identifies the SIP domain
+      responses:
+        200:
+          description: OK
+      tags:
+      - SIP Domains
+  /Accounts/{AccountSid}/SIP/Domains/{SipDomainSid}/IpAccessControlListMappings/{ALSid}:
+    delete:
+      summary: Delete Domains Credentials
+      description: Remove a mapping from this domain.
+      operationId: remove-a-mapping-from-this-domain
+      x-api-path-slug: accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappingsalsid-delete
+      parameters:
+      - in: path
+        name: AccountSid
+        description: The ID for the Twilio account
+      - in: path
+        name: ALSid
+      - in: path
+        name: SipDomainSid
+        description: A 34 character string that uniquely identifies the SIP domain
+      responses:
+        200:
+          description: OK
+      tags:
+      - SIP Domains
+    get:
+      summary: Get Domains IP Access Control List Mappings
+      description: Return a specific IpAccessControlListMapping instance by Sid.
+      operationId: return-a-specific-ipaccesscontrollistmapping-instance-by-sid
+      x-api-path-slug: accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappingsalsid-get
+      parameters:
+      - in: path
+        name: AccountSid
+        description: The ID for the Twilio account
+      - in: path
+        name: ALSid
+      - in: path
+        name: SipDomainSid
+        description: A 34 character string that uniquely identifies the SIP domain
+      responses:
+        200:
+          description: OK
+      tags:
+      - SIP Domains
+  /Accounts/{AccountSid}/SIP/IpAccessControlLists:
+    get:
+      summary: Get SIP IP Access Control List
+      description: Return a paged list of all IpAccessControlLists under this account.
+      operationId: return-a-paged-list-of-all-ipaccesscontrollists-under-this-account
+      x-api-path-slug: accountsaccountsidsipipaccesscontrollists-get
+      parameters:
+      - in: path
+        name: AccountSid
+        description: The ID for the Twilio account
+      responses:
+        200:
+          description: OK
+      tags:
+      - SIP IP Access Control Lists
+    post:
+      summary: Add SIP IP Access Control List
+      description: Create a new IpAccessControlList resource.nnWhen created, the list
+        will contain no IP addresses. You will need to add IP addresses to the list
+        for it to be active. To add IP addresses, you will need to POST to the IpAddresses
+        List subresource.n
+      operationId: create-a-new-ipaccesscontrollist-resourcewhen-created-the-list-will-contain-no-ip-addresses-you-will
+      x-api-path-slug: accountsaccountsidsipipaccesscontrollists-post
+      parameters:
+      - in: path
+        name: AccountSid
+        description: The ID for the Twilio account
+      responses:
+        200:
+          description: OK
+      tags:
+      - SIP IP Access Control Lists
+  /Accounts/{AccountSid}/SIP/IpAccessControlLists/{IpAccessControlListSid}:
     delete:
       summary: Delete SIP IP Access Control List IP Address
-      description: Deletes an IP address entry from the list.
-      operationId: deletes-an-ip-address-entry-from-the-list
-      x-api-path-slug: accountsaccountsidsipipaccesscontrollistsipaccesscontrollistsidipaddressesipaddresssid-delete
+      description: Delete an IpAccessControlList from your account. It can only be
+        deleted if no domains are mapped to it. If you attempt to delete one that
+        is mapped to a domain, you will receive an error.
+      operationId: delete-an-ipaccesscontrollist-from-your-account-it-can-only-be-deleted-if-no-domains-are-mapped-to-i
+      x-api-path-slug: accountsaccountsidsipipaccesscontrollistsipaccesscontrollistsid-delete
       parameters:
       - in: path
         name: AccountSid
         description: The ID for the Twilio account
       - in: path
         name: IpAccessControlListSid
-        description: A 34 character string that uniquely identifies the SIP IP access
-          control list
-      - in: path
-        name: IpAddressSid
         description: A 34 character string that uniquely identifies the SIP IP access
           control list
       responses:
@@ -41,19 +166,15 @@ paths:
       - SIP IP Access Control Lists
     get:
       summary: Get SIP IP Access Control List IP Address
-      description: Return a single IP Address resource.
-      operationId: return-a-single-ip-address-resource
-      x-api-path-slug: accountsaccountsidsipipaccesscontrollistsipaccesscontrollistsidipaddressesipaddresssid-get
+      description: Return a specific IpAccessControlList resource.
+      operationId: return-a-specific-ipaccesscontrollist-resource
+      x-api-path-slug: accountsaccountsidsipipaccesscontrollistsipaccesscontrollistsid-get
       parameters:
       - in: path
         name: AccountSid
         description: The ID for the Twilio account
       - in: path
         name: IpAccessControlListSid
-        description: A 34 character string that uniquely identifies the SIP IP access
-          control list
-      - in: path
-        name: IpAddressSid
         description: A 34 character string that uniquely identifies the SIP IP access
           control list
       responses:
@@ -63,20 +184,15 @@ paths:
       - SIP IP Access Control Lists
     post:
       summary: Add SIP IP Access Control List IP Address
-      description: Change the description or IP address of a given IpAddress instance
-        resource
-      operationId: change-the-description-or-ip-address-of-a-given-ipaddress-instance-resource
-      x-api-path-slug: accountsaccountsidsipipaccesscontrollistsipaccesscontrollistsidipaddressesipaddresssid-post
+      description: Rename an IpAccessControlList.
+      operationId: rename-an-ipaccesscontrollist
+      x-api-path-slug: accountsaccountsidsipipaccesscontrollistsipaccesscontrollistsid-post
       parameters:
       - in: path
         name: AccountSid
         description: The ID for the Twilio account
       - in: path
         name: IpAccessControlListSid
-        description: A 34 character string that uniquely identifies the SIP IP access
-          control list
-      - in: path
-        name: IpAddressSid
         description: A 34 character string that uniquely identifies the SIP IP access
           control list
       responses:
