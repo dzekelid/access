@@ -14,53 +14,11 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "10"
 x-alexaRank: "0"
 tags: Access
-created: "2018-08-24"
-modified: "2018-08-24"
+created: "2018-08-25"
+modified: "2018-08-25"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/access/master/_listings/aws-inspector/apis.md
 specificationVersion: "0.14"
-apis:
-- name: AWS Inspector API
-  x-api-slug: aws-inspector-api
-  description: ""
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Security-Identity_AmazonInspector.png
-  humanURL: https://aws.amazon.com/inspector/
-  baseURL: :///
-  tags: Amazon Web Services, Security, Stack Network, API Service Provider, API Service
-    Provider, API Provider, Profiles, Relative Data, Service API
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/access/master/_listings/aws-inspector/actiondescribecrossaccountaccessrole-get-openapi.md
-- name: AWS Inspector API
-  x-api-slug: aws-inspector-api
-  description: ""
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Security-Identity_AmazonInspector.png
-  humanURL: https://aws.amazon.com/inspector/
-  baseURL: :///
-  tags: Amazon Web Services, Security, Stack Network, API Service Provider, API Service
-    Provider, API Provider, Profiles, Relative Data, Service API
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/access/master/_listings/aws-inspector/actiondescribecrossaccountaccessrole-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/access/master/_listings/aws-inspector/actionregistercrossaccountaccessrole-get-openapi.md
-- name: AWS Inspector API
-  x-api-slug: aws-inspector-api
-  description: Amazon Inspector is an automated security assessment service that helps
-    improve the security and compliance of applications deployed on AWS. Amazon Inspector
-    automatically assesses applications for vulnerabilities or deviations from best
-    practices. After performing an assessment, Amazon Inspector produces a detailed
-    list of security findings prioritized by level of severity.To help you get started
-    quickly, Amazon Inspector includes a knowledge base of hundreds of rules mapped
-    to common security best practices and vulnerability definitions. Examples of built-in
-    rules include checking for remote root login being enabled, or vulnerable software
-    versions installed. These rules are regularly updated by AWS security researchers.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Security-Identity_AmazonInspector.png
-  humanURL: https://aws.amazon.com/inspector/
-  baseURL: :///
-  tags: Access
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/access/master/_listings/aws-inspector/openapi.md
+apis: []
 x-common:
 - type: x-api-gallery
   url: http://aws.identity.and.access.management.api.gallery.streamdata.io

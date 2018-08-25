@@ -11,68 +11,11 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "10"
 x-alexaRank: "0"
 tags: Access
-created: "2018-08-24"
-modified: "2018-08-24"
+created: "2018-08-25"
+modified: "2018-08-25"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/access/master/_listings/aws-redshift/apis.md
 specificationVersion: "0.14"
-apis:
-- name: Amazon Redshift API
-  x-api-slug: amazon-redshift-api
-  description: ""
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Database_AmazonRedshift.png
-  humanURL: https://aws.amazon.com/redshift/
-  baseURL: :///
-  tags: Amazon Web Services, Data, Data Warehouse, Stack Network, API Service Provider,
-    API Service Provider, API Provider, Databases, Profiles, Relative Data, Service
-    API
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/access/master/_listings/aws-redshift/actionauthorizesnapshotaccess-get-openapi.md
-- name: Amazon Redshift API
-  x-api-slug: amazon-redshift-api
-  description: ""
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Database_AmazonRedshift.png
-  humanURL: https://aws.amazon.com/redshift/
-  baseURL: :///
-  tags: Amazon Web Services, Data, Data Warehouse, Stack Network, API Service Provider,
-    API Service Provider, API Provider, Databases, Profiles, Relative Data, Service
-    API
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/access/master/_listings/aws-redshift/actionauthorizesnapshotaccess-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/access/master/_listings/aws-redshift/actionmodifyclusteriamroles-get-openapi.md
-- name: Amazon Redshift API
-  x-api-slug: amazon-redshift-api
-  description: ""
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Database_AmazonRedshift.png
-  humanURL: https://aws.amazon.com/redshift/
-  baseURL: :///
-  tags: Amazon Web Services, Data, Data Warehouse, Stack Network, API Service Provider,
-    API Service Provider, API Provider, Databases, Profiles, Relative Data, Service
-    API
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/access/master/_listings/aws-redshift/actionauthorizesnapshotaccess-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/access/master/_listings/aws-redshift/actionmodifyclusteriamroles-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/access/master/_listings/aws-redshift/actionrevokesnapshotaccess-get-openapi.md
-- name: Amazon Redshift API
-  x-api-slug: amazon-redshift-api
-  description: Amazon Redshift is a fast, fully managed, petabyte-scaledata warehousethat
-    makes it simple and cost-effective to analyze all your data using your existing
-    business intelligence tools. Start small for $0.25 per hour with no commitments
-    and scale to petabytes for $1,000 per terabyte per year, less than a tenth the
-    cost of traditional solutions. Customers typically see 3x compression, reducing
-    their costs to $333 per uncompressed terabyte per year.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Database_AmazonRedshift.png
-  humanURL: https://aws.amazon.com/redshift/
-  baseURL: :///
-  tags: Access
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/access/master/_listings/aws-redshift/openapi.md
+apis: []
 x-common:
 - type: x-api-gallery
   url: http://aws.rds.api.gallery.streamdata.io

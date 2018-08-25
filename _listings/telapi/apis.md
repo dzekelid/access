@@ -7,14 +7,16 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1176-telap
 x-kinRank: "9"
 x-alexaRank: "1071695"
 tags: Access
-created: "2018-08-24"
-modified: "2018-08-24"
+created: "2018-08-25"
+modified: "2018-08-25"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/access/master/_listings/telapi/apis.md
 specificationVersion: "0.14"
 apis:
-- name: hetras Hotel API Version 0
-  x-api-slug: hetras-hotel-api-version-0
-  description: ""
+- name: hetras Hotel API Version 0 - Get a list of all the hotels of a chain your
+    application has access to.
+  x-api-slug: apihotelv0hotels-get
+  description: Get a list of all the hotels of a chain your application has access
+    to..
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1176-telapi.jpg
   humanURL: http://www.telapi.com
   baseURL: https://api.hetras-certification.net//
@@ -25,33 +27,6 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/access/master/_listings/telapi/apihotelv0hotels-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/access/master/_listings/telapi/apihotelv0hotels-get-openapi.md
-- name: hetras Hotel API Version 0
-  x-api-slug: hetras-hotel-api-version-0
-  description: Zang offers business communications tools & voice app development platforms
-    that bring innovation and ease to unified communications & collaboration solutions.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1176-telapi.jpg
-  humanURL: http://www.telapi.com
-  baseURL: https://api.hetras-certification.net//
-  tags: Access
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/access/master/_listings/telapi/openapi.md
-- name: TelAPI
-  x-api-slug: telapi
-  description: TelAPI is a platform for telephony applications. TelAPI allows users
-    to add voice and SMS and other telephony features to applications. Some features
-    include sending and receiving SMS messages, phone calls, adding voice features
-    to applications, and buying phone numbers.The TelAPI allows developers to access
-    and integrate the functionality of TelAPI with other applications and to create
-    new applications. Some example API methods include listing calls, making calls,
-    managing recordings, and adding audio effects.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1176-telapi.jpg
-  humanURL: http://www.telapi.com
-  baseURL: http://api.telapi.com/v2/
-  tags: Access
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/access/master/_listings/telapi/openapi.md
 x-common:
 - type: x-api-gallery
   url: http://taxamo.api.gallery.streamdata.io
