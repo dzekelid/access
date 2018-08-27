@@ -11,8 +11,8 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28293-quov
 x-kinRank: "7"
 x-alexaRank: "391003"
 tags: Access
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/access/master/_listings/quovo/apis.md
 specificationVersion: "0.14"
 apis:
@@ -29,6 +29,28 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/access/master/_listings/quovo/tokens-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/access/master/_listings/quovo/tokens-get-openapi.md
+- name: Quovo API v3 - Create a new access token
+  x-api-slug: tokens-post
+  description: Creates and returns a new Access Token.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28293-quovo.jpg
+  humanURL: http://quovo.com
+  baseURL: https://example.com//
+  tags: SaaS, Technology, Enterprise, Financial Services, Financial, Market Data,
+    Profiles, General Data, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/access/master/_listings/quovo/tokens-post-openapi.md
+- name: Quovo API v3 - Delete an existing access token
+  x-api-slug: tokens-delete
+  description: Deletes an Access Token.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28293-quovo.jpg
+  humanURL: http://quovo.com
+  baseURL: https://example.com//
+  tags: SaaS, Technology, Enterprise, Financial Services, Financial, Market Data,
+    Profiles, General Data, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/access/master/_listings/quovo/tokens-delete-openapi.md
 x-common:
 - type: x-blog-rss
   url: https://www.quovo.com/fintech-blog/feed/

@@ -12,11 +12,76 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "10"
 x-alexaRank: "0"
 tags: Access
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/access/master/_listings/aws-identity-and-access-management/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: AWS Identity and Access Management API - Create Access Key
+  x-api-slug: actioncreateaccesskey-get
+  description: |-
+    Creates a new AWS secret access key and corresponding AWS access key ID for the
+          specified user.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Security-Identity_AWSIAM.png
+  humanURL: https://aws.amazon.com/iam/
+  baseURL: :///
+  tags: Amazon Web Services, Authentication, Stack Network, Security, API Service
+    Provider, API Service Provider, API Provider, Identities, Profiles, Relative Data,
+    Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/access/master/_listings/aws-identity-and-access-management/actioncreateaccesskey-get-openapi.md
+- name: AWS Identity and Access Management API - Delete Access Key
+  x-api-slug: actiondeleteaccesskey-get
+  description: Deletes the access key pair associated with the specified IAM user.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Security-Identity_AWSIAM.png
+  humanURL: https://aws.amazon.com/iam/
+  baseURL: :///
+  tags: Amazon Web Services, Authentication, Stack Network, Security, API Service
+    Provider, API Service Provider, API Provider, Identities, Profiles, Relative Data,
+    Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/access/master/_listings/aws-identity-and-access-management/actiondeleteaccesskey-get-openapi.md
+- name: AWS Identity and Access Management API - Get Access Key Last Used
+  x-api-slug: actiongetaccesskeylastused-get
+  description: Retrieves information about when the specified access key was last
+    used.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Security-Identity_AWSIAM.png
+  humanURL: https://aws.amazon.com/iam/
+  baseURL: :///
+  tags: Amazon Web Services, Authentication, Stack Network, Security, API Service
+    Provider, API Service Provider, API Provider, Identities, Profiles, Relative Data,
+    Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/access/master/_listings/aws-identity-and-access-management/actiongetaccesskeylastused-get-openapi.md
+- name: AWS Identity and Access Management API - List Access Keys
+  x-api-slug: actionlistaccesskeys-get
+  description: Returns information about the access key IDs associated with the specified
+    IAM user.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Security-Identity_AWSIAM.png
+  humanURL: https://aws.amazon.com/iam/
+  baseURL: :///
+  tags: Amazon Web Services, Authentication, Stack Network, Security, API Service
+    Provider, API Service Provider, API Provider, Identities, Profiles, Relative Data,
+    Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/access/master/_listings/aws-identity-and-access-management/actionlistaccesskeys-get-openapi.md
+- name: AWS Identity and Access Management API - Update Access Key
+  x-api-slug: actionupdateaccesskey-get
+  description: Changes the status of the specified access key from Active to Inactive,
+    or vice versa.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Security-Identity_AWSIAM.png
+  humanURL: https://aws.amazon.com/iam/
+  baseURL: :///
+  tags: Amazon Web Services, Authentication, Stack Network, Security, API Service
+    Provider, API Service Provider, API Provider, Identities, Profiles, Relative Data,
+    Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/access/master/_listings/aws-identity-and-access-management/actionupdateaccesskey-get-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://aws.glacier.api.gallery.streamdata.io

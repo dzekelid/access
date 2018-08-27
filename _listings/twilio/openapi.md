@@ -1,4 +1,3 @@
----
 swagger: "2.0"
 x-collection-name: Twilio
 x-complete: 1
@@ -305,4 +304,3 @@ paths:
           description: OK
       tags:
       - SIP IP Access Control Lists
----

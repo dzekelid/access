@@ -11,11 +11,53 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "10"
 x-alexaRank: "0"
 tags: Access
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/access/master/_listings/aws-redshift/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: AWS Redshift API - Authorize Snapshot Access
+  x-api-slug: actionauthorizesnapshotaccess-get
+  description: |-
+    Authorizes the specified AWS customer account to restore the specified
+                snapshot.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Database_AmazonRedshift.png
+  humanURL: https://aws.amazon.com/redshift/
+  baseURL: :///
+  tags: Amazon Web Services, Data, Data Warehouse, Stack Network, API Service Provider,
+    API Service Provider, API Provider, Databases, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/access/master/_listings/aws-redshift/actionauthorizesnapshotaccess-get-openapi.md
+- name: AWS Redshift API - Modify Cluster Iam Roles
+  x-api-slug: actionmodifyclusteriamroles-get
+  description: |-
+    Modifies the list of AWS Identity and Access Management (IAM) roles that can be
+                used by the cluster to access other AWS services.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Database_AmazonRedshift.png
+  humanURL: https://aws.amazon.com/redshift/
+  baseURL: :///
+  tags: Amazon Web Services, Data, Data Warehouse, Stack Network, API Service Provider,
+    API Service Provider, API Provider, Databases, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/access/master/_listings/aws-redshift/actionmodifyclusteriamroles-get-openapi.md
+- name: AWS Redshift API - Revoke Snapshot Access
+  x-api-slug: actionrevokesnapshotaccess-get
+  description: |-
+    Removes the ability of the specified AWS customer account to restore the specified
+                snapshot.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Database_AmazonRedshift.png
+  humanURL: https://aws.amazon.com/redshift/
+  baseURL: :///
+  tags: Amazon Web Services, Data, Data Warehouse, Stack Network, API Service Provider,
+    API Service Provider, API Provider, Databases, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/access/master/_listings/aws-redshift/actionrevokesnapshotaccess-get-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://aws.rds.api.gallery.streamdata.io

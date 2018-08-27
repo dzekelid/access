@@ -11,11 +11,24 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "10"
 x-alexaRank: "0"
 tags: Access
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/access/master/_listings/aws-lightsale/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: AWS Lightsale API - Get Instance Access Details
+  x-api-slug: actiongetinstanceaccessdetails-get
+  description: |-
+    Returns temporary SSH keys you can use to connect to a specific virtual private server,
+          or instance.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/aws-lightsail.png
+  humanURL: https://amazonlightsail.com/
+  baseURL: :///
+  tags: Amazon Web Services, DNS, Stack Network, API Service Provider, API Service
+    Provider, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/access/master/_listings/aws-lightsale/actiongetinstanceaccessdetails-get-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://aws.lambda.api.gallery.streamdata.io

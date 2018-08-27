@@ -8,11 +8,130 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "8"
 x-alexaRank: "95684"
 tags: Access
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/access/master/_listings/mattermost/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: Mattermost API Reference - Create a user access token
+  x-api-slug: usersuser-idtokens-post
+  description: |-
+    Generate a user access token that can be used to authenticate with the Mattermost REST API.
+
+    __Minimum server version__: 4.1
+
+    ##### Permissions
+    Must have `create_user_access_token` permission. For non-self requests, must also have the `edit_other_users` permission.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/mattermost-logo.png
+  humanURL: https://mattermost.com
+  baseURL: https://your-mattermost-url.com//api/v4
+  tags: Enterprise, SaaS, Technology, Cloud, API Provider, API Service Provider, Profiles,
+    Relative Data, Service API, Networks
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/access/master/_listings/mattermost/usersuser-idtokens-post-openapi.md
+- name: Mattermost API Reference - Get user access tokens
+  x-api-slug: usersuser-idtokens-get
+  description: |-
+    Get a list of user access tokens for a user. Does not include the actual authentication tokens. Use query paremeters for paging.
+
+    __Minimum server version__: 4.1
+
+    ##### Permissions
+    Must have `read_user_access_token` permission. For non-self requests, must also have the `edit_other_users` permission.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/mattermost-logo.png
+  humanURL: https://mattermost.com
+  baseURL: https://your-mattermost-url.com//api/v4
+  tags: Enterprise, SaaS, Technology, Cloud, API Provider, API Service Provider, Profiles,
+    Relative Data, Service API, Networks
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/access/master/_listings/mattermost/usersuser-idtokens-get-openapi.md
+- name: Mattermost API Reference - Get user access tokens
+  x-api-slug: userstokens-get
+  description: |-
+    Get a page of user access tokens for users on the system. Does not include the actual authentication tokens. Use query parameters for paging.
+
+    __Minimum server version__: 4.7
+
+    ##### Permissions
+    Must have `manage_system` permission.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/mattermost-logo.png
+  humanURL: https://mattermost.com
+  baseURL: https://your-mattermost-url.com//api/v4
+  tags: Enterprise, SaaS, Technology, Cloud, API Provider, API Service Provider, Profiles,
+    Relative Data, Service API, Networks
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/access/master/_listings/mattermost/userstokens-get-openapi.md
+- name: Mattermost API Reference - Revoke a user access token
+  x-api-slug: userstokensrevoke-post
+  description: |-
+    Revoke a user access token and delete any sessions using the token.
+
+    __Minimum server version__: 4.1
+
+    ##### Permissions
+    Must have `revoke_user_access_token` permission. For non-self requests, must also have the `edit_other_users` permission.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/mattermost-logo.png
+  humanURL: https://mattermost.com
+  baseURL: https://your-mattermost-url.com//api/v4
+  tags: Enterprise, SaaS, Technology, Cloud, API Provider, API Service Provider, Profiles,
+    Relative Data, Service API, Networks
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/access/master/_listings/mattermost/userstokensrevoke-post-openapi.md
+- name: Mattermost API Reference - Get a user access token
+  x-api-slug: userstokenstoken-id-get
+  description: |-
+    Get a user access token. Does not include the actual authentication token.
+
+    __Minimum server version__: 4.1
+
+    ##### Permissions
+    Must have `read_user_access_token` permission. For non-self requests, must also have the `edit_other_users` permission.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/mattermost-logo.png
+  humanURL: https://mattermost.com
+  baseURL: https://your-mattermost-url.com//api/v4
+  tags: Enterprise, SaaS, Technology, Cloud, API Provider, API Service Provider, Profiles,
+    Relative Data, Service API, Networks
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/access/master/_listings/mattermost/userstokenstoken-id-get-openapi.md
+- name: Mattermost API Reference - Disable personal access token
+  x-api-slug: userstokensdisable-post
+  description: |-
+    Disable a personal access token and delete any sessions using the token. The token can be re-enabled using `/users/tokens/enable`.
+
+    __Minimum server version__: 4.4
+
+    ##### Permissions
+    Must have `revoke_user_access_token` permission. For non-self requests, must also have the `edit_other_users` permission.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/mattermost-logo.png
+  humanURL: https://mattermost.com
+  baseURL: https://your-mattermost-url.com//api/v4
+  tags: Enterprise, SaaS, Technology, Cloud, API Provider, API Service Provider, Profiles,
+    Relative Data, Service API, Networks
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/access/master/_listings/mattermost/userstokensdisable-post-openapi.md
+- name: Mattermost API Reference - Enable personal access token
+  x-api-slug: userstokensenable-post
+  description: |-
+    Re-enable a personal access token that has been disabled.
+
+    __Minimum server version__: 4.4
+
+    ##### Permissions
+    Must have `create_user_access_token` permission. For non-self requests, must also have the `edit_other_users` permission.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/mattermost-logo.png
+  humanURL: https://mattermost.com
+  baseURL: https://your-mattermost-url.com//api/v4
+  tags: Enterprise, SaaS, Technology, Cloud, API Provider, API Service Provider, Profiles,
+    Relative Data, Service API, Networks
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/access/master/_listings/mattermost/userstokensenable-post-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://matrix.api.gallery.streamdata.io

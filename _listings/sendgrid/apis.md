@@ -7,8 +7,8 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgr
 x-kinRank: "9"
 x-alexaRank: "10000"
 tags: Access
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/access/master/_listings/sendgrid/apis.md
 specificationVersion: "0.14"
 apis:
@@ -30,6 +30,24 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/access/master/_listings/sendgrid/access-settingsactivity-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/access/master/_listings/sendgrid/access-settingsactivity-get-openapi.md
+- name: SendGrid - Delete Access Settings Whitelist
+  x-api-slug: access-settingswhitelist-delete
+  description: |-
+    **This endpoint allows you to remove one or more IPs from your IP whitelist.**
+
+    You can remove one IP at a time, or you can remove multiple IP addresses.
+
+    IP Access Management allows you to control which IP addresses can be used to access your account, either through the User Interface or the API. There is no limit to the number of IP addresses that you can add to your whitelist. It is possible to remove your own IP address from the whitelist, thus preventing yourself from accessing your account.
+
+    For more information, please see our [User Guide](http://sendgrid.com/docs/User_Guide/Settings/ip_access_management.html).
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
+  baseURL: https://api.sendgrid.com//v3
+  tags: API LIfeyclessss, Imports, Stack Network, Stack, Technology, SaaS, Emails,
+    Emails, Messages, Messages, Relative Data, Service API, Relative StreamRank, Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/access/master/_listings/sendgrid/access-settingswhitelist-delete-openapi.md
 - name: SendGrid - Get Access Settings Whitelist
   x-api-slug: access-settingswhitelist-get
   description: |-
@@ -48,6 +66,42 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/access/master/_listings/sendgrid/access-settingswhitelist-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/access/master/_listings/sendgrid/access-settingswhitelist-get-openapi.md
+- name: SendGrid - Add Access Settings Whitelist
+  x-api-slug: access-settingswhitelist-post
+  description: |-
+    **This endpoint allows you to add one or more IP addresses to your IP whitelist.**
+
+    When adding an IP to your whitelist, include the IP address in an array. You can whitelist one IP at a time, or you can whitelist multiple IPs at once.
+
+    IP Access Management allows you to control which IP addresses can be used to access your account, either through the User Interface or the API. There is no limit to the number of IP addresses that you can add to your whitelist. It is possible to remove your own IP address from the whitelist, thus preventing yourself from accessing your account.
+
+    For more information, please see our [User Guide](http://sendgrid.com/docs/User_Guide/Settings/ip_access_management.html).
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
+  baseURL: https://api.sendgrid.com//v3
+  tags: API LIfeyclessss, Imports, Stack Network, Stack, Technology, SaaS, Emails,
+    Emails, Messages, Messages, Relative Data, Service API, Relative StreamRank, Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/access/master/_listings/sendgrid/access-settingswhitelist-post-openapi.md
+- name: SendGrid - Delete Access Settings Whitelist Rule
+  x-api-slug: access-settingswhitelistrule-id-delete
+  description: |-
+    **This endpoint allows you to remove a specific IP address from your IP whitelist.**
+
+    When removing a specific IP address from your whitelist, you must include the ID in your call.
+
+    IP Access Management allows you to control which IP addresses can be used to access your account, either through the User Interface or the API. There is no limit to the number of IP addresses that you can add to your whitelist. It is possible to remove your own IP address from the whitelist, thus preventing yourself from accessing your account.
+
+    For more information, please see our [User Guide](http://sendgrid.com/docs/User_Guide/Settings/ip_access_management.html).
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
+  baseURL: https://api.sendgrid.com//v3
+  tags: API LIfeyclessss, Imports, Stack Network, Stack, Technology, SaaS, Emails,
+    Emails, Messages, Messages, Relative Data, Service API, Relative StreamRank, Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/access/master/_listings/sendgrid/access-settingswhitelistrule-id-delete-openapi.md
 - name: SendGrid - Get Access Settings Whitelist Rule
   x-api-slug: access-settingswhitelistrule-id-get
   description: |-

@@ -1,4 +1,3 @@
----
 swagger: "2.0"
 x-collection-name: AWS CloudFront
 x-complete: 1
@@ -261,4 +260,3 @@ paths:
       - Origin
       - Access
       - Identity
----

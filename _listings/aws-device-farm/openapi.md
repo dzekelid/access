@@ -1,4 +1,3 @@
----
 swagger: "2.0"
 x-collection-name: AWS Device Farm
 x-complete: 1
@@ -137,4 +136,3 @@ paths:
           description: OK
       tags:
       - Remote Access Sessions
----

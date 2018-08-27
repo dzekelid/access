@@ -1,4 +1,3 @@
----
 swagger: "2.0"
 x-collection-name: Quovo
 x-complete: 1
@@ -66,4 +65,3 @@ paths:
       - Existing
       - Access
       - Token
----
